@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+#top-section{
+    background-image: url("https://kq-storage.s3.ap-south-1.amazonaws.com/Github/bucketlist/bucket-list-bg%5B1%5D.png");
+    height: 35vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#heading1{
+    color: white;
+    font-size: 44px;
+}
+input{
+    height: 45px;
+    width: 400px;
+    border-radius: 25px;
+    font-size: 20px;
+    padding-left: 10px;
+    border: 2px solid black;
+}
+#container{
+    position: relative;
+    margin-top: 20px;
+}
+#add-btn{
+    height: 45px;
+    width: 85px;
+    border-radius: 25px;
+    background-color: orange;
+    position: absolute;
+    font-size: 20px;
+    right: 0;
+    border: 2px solid black;
+    font-weight: bold;
+}
+#reset-btn{
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: orange;
+    padding: 0 40px;
+    border: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    margin-top: 75px;
+}
+#heading2{
+    text-align: center;
+    margin-top: 20px;
+}
+#tagline{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+#bucket-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.list-item{
+    width: 400px;
+    height: 60px;
+    border-radius:30px;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+    margin: 10px 0;
+} 
